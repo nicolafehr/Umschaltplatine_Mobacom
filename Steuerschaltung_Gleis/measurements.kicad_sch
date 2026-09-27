@@ -863,15 +863,15 @@
 		)
 		(uuid "2e788704-48f4-411c-a64f-647ef4fa6fe4")
 	)
-	(text "TODO:\nAuswert-Schaltung (ADC mit 7-Segment-Anzeige)\n"
+	(text "Spannung: 10:1\n20V -> 2V"
 		(exclude_from_sim no)
-		(at 206.248 43.688 0)
+		(at 245.872 29.718 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "9a08a558-d612-407d-997c-0266843388f2")
+		(uuid "e662ff6c-16ce-4d2f-a09b-fc94c2c140f6")
 	)
 	(junction
 		(at 175.26 40.64)
@@ -898,6 +898,12 @@
 		(uuid "4eb0de37-4525-438d-80e2-6507c9b55ba8")
 	)
 	(junction
+		(at 234.95 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52ff5f38-0900-40e9-8088-6aa2f5668030")
+	)
+	(junction
 		(at 38.1 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -916,6 +922,12 @@
 		(uuid "8d7112ad-59e7-4dce-9b9e-9ab7cff34c9f")
 	)
 	(junction
+		(at 234.95 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a614cebf-6729-4b12-918e-fe3356f85b83")
+	)
+	(junction
 		(at 38.1 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -929,6 +941,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 43.18) (xy 243.84 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0205c4d2-851b-4fa6-83fc-e92754fee082")
+	)
+	(wire
+		(pts
 			(xy 69.85 63.5) (xy 109.22 63.5)
 		)
 		(stroke
@@ -936,6 +958,16 @@
 			(type default)
 		)
 		(uuid "08a0e473-315f-47f0-98dc-a1c7ff131c9c")
+	)
+	(wire
+		(pts
+			(xy 220.98 50.8) (xy 220.98 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09ecea3e-d0f8-4a44-9e08-2ca81f4ce552")
 	)
 	(wire
 		(pts
@@ -969,6 +1001,26 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 54.61) (xy 199.39 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1322e427-e8ab-4bb8-818a-af0da78cb056")
+	)
+	(wire
+		(pts
+			(xy 234.95 64.77) (xy 234.95 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13b71e9d-86bd-4495-ae91-b548f176dc95")
+	)
+	(wire
+		(pts
 			(xy 69.85 62.23) (xy 69.85 63.5)
 		)
 		(stroke
@@ -989,6 +1041,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 64.77) (xy 189.23 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1636fe92-2296-4b55-a648-3e0f9adf4a8b")
+	)
+	(wire
+		(pts
 			(xy 48.26 30.48) (xy 69.85 30.48)
 		)
 		(stroke
@@ -996,6 +1058,16 @@
 			(type default)
 		)
 		(uuid "186c08c6-3e7a-42a2-89f6-e517f1c3560b")
+	)
+	(wire
+		(pts
+			(xy 195.58 40.64) (xy 215.9 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b0d66b3-d4fa-4874-802a-d64099af3779")
 	)
 	(wire
 		(pts
@@ -1046,6 +1118,16 @@
 			(type default)
 		)
 		(uuid "294addbb-7a6b-4404-939a-0b8a80a8795c")
+	)
+	(wire
+		(pts
+			(xy 234.95 43.18) (xy 234.95 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30959014-546e-4c67-8f4d-facd053dff05")
 	)
 	(wire
 		(pts
@@ -1116,6 +1198,16 @@
 			(type default)
 		)
 		(uuid "4c24f086-ed81-407d-87e5-4081a3c98ec6")
+	)
+	(wire
+		(pts
+			(xy 220.98 33.02) (xy 220.98 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5029c9d3-0c0c-481e-8733-ce70ea75d678")
 	)
 	(wire
 		(pts
@@ -1309,6 +1401,46 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 54.61) (xy 234.95 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d96613c-eb12-46c0-bf10-45b417292aaf")
+	)
+	(wire
+		(pts
+			(xy 189.23 54.61) (xy 189.23 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dd35a7e-ef5d-4157-83a5-07cc95de8f65")
+	)
+	(wire
+		(pts
+			(xy 199.39 64.77) (xy 199.39 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e90827a-aa84-41a3-8eb1-ce672e89c15c")
+	)
+	(wire
+		(pts
+			(xy 234.95 55.88) (xy 210.82 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89da65e8-46eb-4157-82a3-906f35a39ecb")
+	)
+	(wire
+		(pts
 			(xy 125.73 50.8) (xy 125.73 53.34)
 		)
 		(stroke
@@ -1356,6 +1488,16 @@
 			(type default)
 		)
 		(uuid "98445f19-d972-4733-be88-0429707c2d7e")
+	)
+	(wire
+		(pts
+			(xy 231.14 43.18) (xy 234.95 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a35d3ef-e48f-495b-aa11-864fede4534a")
 	)
 	(wire
 		(pts
@@ -1416,6 +1558,16 @@
 			(type default)
 		)
 		(uuid "a5a98b2d-d093-49d1-bb57-b875c66743f7")
+	)
+	(wire
+		(pts
+			(xy 251.46 43.18) (xy 257.81 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a93c6660-341d-4432-9050-2f0e3e8ed65b")
 	)
 	(wire
 		(pts
@@ -1489,6 +1641,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 55.88) (xy 210.82 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2fa679f-399f-4294-946c-625c89c69e4d")
+	)
+	(wire
+		(pts
 			(xy 69.85 41.91) (xy 69.85 44.45)
 		)
 		(stroke
@@ -1506,6 +1668,26 @@
 			(type default)
 		)
 		(uuid "c9c43a44-484f-4b98-ad8f-bdbb9b961f84")
+	)
+	(wire
+		(pts
+			(xy 234.95 55.88) (xy 234.95 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd9db775-f15c-46b1-9cb8-6e538986e872")
+	)
+	(wire
+		(pts
+			(xy 210.82 45.72) (xy 215.9 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6bed3fa-68fb-4347-b2c5-6806ae4d496a")
 	)
 	(wire
 		(pts
@@ -1737,6 +1919,78 @@
 	)
 	(global_label "VCC_5V"
 		(shape input)
+		(at 189.23 54.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf4a0350-f9c8-48fe-9f5d-ff365750b107")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.23 44.7305 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VCC_5V"
+		(shape input)
+		(at 199.39 54.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4b36f05-73e1-40c1-8199-732eb03f6a37")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.39 44.7305 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VCC_5V"
+		(shape input)
+		(at 220.98 33.02 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eba909b4-984f-4a0d-87f3-066bcc99098c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.98 23.1405 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VCC_5V"
+		(shape input)
 		(at 130.81 63.5 90)
 		(fields_autoplaced yes)
 		(effects
@@ -1791,6 +2045,17 @@
 			(justify right)
 		)
 		(uuid "8f5bebd3-b112-48cd-aeed-f97fd66355ab")
+	)
+	(hierarchical_label "Gleisspannung_gemessen"
+		(shape input)
+		(at 257.81 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c268c018-14e9-4b4e-9ddc-49aa84bdaf36")
 	)
 	(hierarchical_label "Gleis_neg_out"
 		(shape input)
@@ -2045,6 +2310,85 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 247.65 43.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "18182899-5ae4-48a3-a1fd-376fab49706f")
+		(property "Reference" "R72"
+			(at 247.65 37.846 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 247.65 40.386 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 247.65 44.958 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 247.65 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "80bb7389-0c40-4aa4-a596-1f25323729d0")
+		)
+		(pin "2"
+			(uuid "1863a936-bc7a-43fa-8f41-b4d3a26d563c")
+		)
+		(instances
+			(project "Steuerschaltung_Gleis"
+				(path "/ed6d8813-0425-408c-88e9-d35df569bb51/2f2892e3-50c8-470a-83ee-0d2a3dcd2587"
+					(reference "R72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 69.85 91.44 0)
 		(unit 1)
 		(body_style 1)
@@ -2202,6 +2546,88 @@
 			(project "Steuerschaltung_Gleis"
 				(path "/ed6d8813-0425-408c-88e9-d35df569bb51/2f2892e3-50c8-470a-83ee-0d2a3dcd2587"
 					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 234.95 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b1a89d3-2dbf-406b-b8ff-cb57382667cb")
+		(property "Reference" "R71"
+			(at 237.49 59.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 237.49 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 233.172 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 234.95 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2df44909-6092-4589-9a1c-cfc129e57b2c")
+		)
+		(pin "1"
+			(uuid "d6792400-cb42-49d5-89ea-036f753ee7c6")
+		)
+		(instances
+			(project "Steuerschaltung_Gleis"
+				(path "/ed6d8813-0425-408c-88e9-d35df569bb51/2f2892e3-50c8-470a-83ee-0d2a3dcd2587"
+					(reference "R71")
 					(unit 1)
 				)
 			)
@@ -2852,6 +3278,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 189.23 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5467b94b-9175-4df5-a940-4e862056e446")
+		(property "Reference" "#PWR075"
+			(at 189.23 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 189.23 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "79310d67-0153-484b-a222-4a61b9022aa2")
+		)
+		(instances
+			(project "Steuerschaltung_Gleis"
+				(path "/ed6d8813-0425-408c-88e9-d35df569bb51/2f2892e3-50c8-470a-83ee-0d2a3dcd2587"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 191.77 40.64 90)
 		(unit 1)
@@ -3362,6 +3866,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 234.95 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96ef8227-ce6a-4a82-a3be-bf95af71a606")
+		(property "Reference" "#PWR073"
+			(at 234.95 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.95 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25090231-a52c-4811-9147-c159f0556b7b")
+		)
+		(instances
+			(project "Steuerschaltung_Gleis"
+				(path "/ed6d8813-0425-408c-88e9-d35df569bb51/2f2892e3-50c8-470a-83ee-0d2a3dcd2587"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 100.33 29.21 0)
 		(unit 1)
@@ -3844,6 +4426,244 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 220.98 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad7f1b5e-8ef8-48ca-8ae0-a618c4c419c1")
+		(property "Reference" "#PWR074"
+			(at 220.98 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.98 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f1db781-cbd4-42da-89ed-ef16223c57e6")
+		)
+		(instances
+			(project "Steuerschaltung_Gleis"
+				(path "/ed6d8813-0425-408c-88e9-d35df569bb51/2f2892e3-50c8-470a-83ee-0d2a3dcd2587"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 199.39 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b47fd541-37c1-48fc-94a4-e02009fa1571")
+		(property "Reference" "#PWR076"
+			(at 199.39 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a7a9e827-5627-4fa1-ad11-4db52e7ee25c")
+		)
+		(instances
+			(project "Steuerschaltung_Gleis"
+				(path "/ed6d8813-0425-408c-88e9-d35df569bb51/2f2892e3-50c8-470a-83ee-0d2a3dcd2587"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 189.23 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6a3fa3b-36a1-4a88-8ac9-aa0b642991a6")
+		(property "Reference" "C22"
+			(at 193.04 59.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 193.04 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 190.1952 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 189.23 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "20c65cbf-68f6-4262-bed1-e00f068248ec")
+		)
+		(pin "1"
+			(uuid "d2bae023-7c64-4aef-8a17-85e240004c1d")
+		)
+		(instances
+			(project "Steuerschaltung_Gleis"
+				(path "/ed6d8813-0425-408c-88e9-d35df569bb51/2f2892e3-50c8-470a-83ee-0d2a3dcd2587"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 142.24 64.77 0)
 		(unit 1)
 		(body_style 1)
@@ -3915,6 +4735,170 @@
 			(project "Steuerschaltung_Gleis"
 				(path "/ed6d8813-0425-408c-88e9-d35df569bb51/2f2892e3-50c8-470a-83ee-0d2a3dcd2587"
 					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 199.39 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfce9443-f933-4683-845e-8fb9bc6b8727")
+		(property "Reference" "C23"
+			(at 203.2 59.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 203.2 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 200.3552 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 199.39 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5bfed795-9799-4ccb-a24f-383c3d7a5b22")
+		)
+		(pin "1"
+			(uuid "e323b46e-c390-4fb9-9e0d-745a78b2f1d1")
+		)
+		(instances
+			(project "Steuerschaltung_Gleis"
+				(path "/ed6d8813-0425-408c-88e9-d35df569bb51/2f2892e3-50c8-470a-83ee-0d2a3dcd2587"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 234.95 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0e53406-5f97-44de-a4fc-dd62ff0d312a")
+		(property "Reference" "R70"
+			(at 237.49 49.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "9k"
+			(at 237.49 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 233.172 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 234.95 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "869a9db6-6938-4560-a487-1b247c1ae2cf")
+		)
+		(pin "1"
+			(uuid "b07e4438-3f93-42bd-abe5-7862abda2364")
+		)
+		(instances
+			(project "Steuerschaltung_Gleis"
+				(path "/ed6d8813-0425-408c-88e9-d35df569bb51/2f2892e3-50c8-470a-83ee-0d2a3dcd2587"
+					(reference "R70")
 					(unit 1)
 				)
 			)
@@ -4232,6 +5216,95 @@
 			(project "Steuerschaltung_Gleis"
 				(path "/ed6d8813-0425-408c-88e9-d35df569bb51/2f2892e3-50c8-470a-83ee-0d2a3dcd2587"
 					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TLV9001IDCK")
+		(at 220.98 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecdbc2c1-ff24-44e8-add6-e234564867ca")
+		(property "Reference" "U7"
+			(at 236.22 36.7598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV9001IDCK"
+			(at 236.22 39.2998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 226.06 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9001.pdf"
+			(at 220.98 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low-power, Rail-to-Rail, 1MHz Operational Amplifier, SOT-353"
+			(at 220.98 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fd55ed3b-9a0a-4263-87d6-44335e7be25d")
+		)
+		(pin "4"
+			(uuid "aed7a52f-4230-486b-a59d-4b5be962c2c3")
+		)
+		(pin "2"
+			(uuid "9acedf68-c34e-405b-9c8b-716f840927ab")
+		)
+		(pin "3"
+			(uuid "1b3cf80d-debc-4462-9584-adbe66e2f5d7")
+		)
+		(pin "5"
+			(uuid "eef4a0d9-7544-414f-a8b2-dbd8ac19aca4")
+		)
+		(instances
+			(project "Steuerschaltung_Gleis"
+				(path "/ed6d8813-0425-408c-88e9-d35df569bb51/2f2892e3-50c8-470a-83ee-0d2a3dcd2587"
+					(reference "U7")
 					(unit 1)
 				)
 			)

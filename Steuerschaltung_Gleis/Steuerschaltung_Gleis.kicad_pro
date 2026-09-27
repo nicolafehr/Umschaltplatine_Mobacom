@@ -675,6 +675,9 @@
       "/Anschluss_Gleis/additional_1": [
         "Power"
       ],
+      "/measurements/Gleisspannung_gemessen": [
+        "Power"
+      ],
       "GND": [
         "Power"
       ],
