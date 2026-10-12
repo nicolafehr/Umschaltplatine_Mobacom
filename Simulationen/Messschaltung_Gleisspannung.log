@@ -1,16 +1,17 @@
 LTspice 26.0.1 for Windows
 Circuit: C:\Users\nicol\Documents\Modelleisenbahn\Projekt_Testanlage_Dani\Simulationen\Messschaltung_Gleisspannung.net
-Start Time: Mon Sep 21 20:08:42 2026
+Start Time: Thu Oct  8 19:25:38 2026
 solver = Normal
 Maximum thread count: 20
 tnom = 27
 temp = 27
 method = trap
 Direct Newton iteration succeeded in finding operating point.
-Total elapsed time: 0.215 seconds.
+Total elapsed time: 0.355 seconds.
 
 Files loaded:
 C:\Users\nicol\Documents\Modelleisenbahn\Projekt_Testanlage_Dani\Simulationen\Messschaltung_Gleisspannung.net
 C:\Users\nicol\AppData\Local\LTspice\lib\sub\LTC1966.lib
+C:\Users\nicol\Documents\LTspice\tmcs1100a1.lib
 C:\Users\nicol\AppData\Local\LTspice\lib\sub\UniversalOpAmp1.lib
 

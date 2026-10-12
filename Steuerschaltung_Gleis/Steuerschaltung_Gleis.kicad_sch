@@ -1392,10 +1392,6 @@
 		(uuid "680cf67c-a837-4db6-8379-dfd52497f029")
 	)
 	(no_connect
-		(at 180.34 64.77)
-		(uuid "88979a3d-bca0-4cff-b878-342d09f3688d")
-	)
-	(no_connect
 		(at 261.62 111.76)
 		(uuid "8ee86845-873b-4f5a-9a4c-da8e41502faa")
 	)
@@ -1633,6 +1629,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 34.29) (xy 123.19 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "401ce4e5-096f-4fdf-87e2-bdd009b3eb31")
+	)
+	(wire
+		(pts
 			(xy 22.86 77.47) (xy 53.34 77.47)
 		)
 		(stroke
@@ -1713,6 +1719,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 64.77) (xy 171.45 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58a09254-64ce-4305-bec3-bb954837a048")
+	)
+	(wire
+		(pts
 			(xy 180.34 77.47) (xy 166.37 77.47)
 		)
 		(stroke
@@ -1720,6 +1736,16 @@
 			(type default)
 		)
 		(uuid "58d8009a-c1aa-47e6-a3ec-b1232e56221b")
+	)
+	(wire
+		(pts
+			(xy 168.91 67.31) (xy 168.91 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a77b28d-44d0-4666-b658-2043958ccaf2")
 	)
 	(wire
 		(pts
@@ -1790,16 +1816,6 @@
 			(type default)
 		)
 		(uuid "67e794db-28cc-4915-8a85-3b2062233d84")
-	)
-	(wire
-		(pts
-			(xy 168.91 67.31) (xy 168.91 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "685f7c9f-ab32-4e27-90d6-23186a5a940c")
 	)
 	(wire
 		(pts
@@ -1913,6 +1929,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 67.31) (xy 168.91 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dbeebc1-f9e8-442b-90b0-594c9d3f7f68")
+	)
+	(wire
+		(pts
 			(xy 233.68 106.68) (xy 229.87 106.68)
 		)
 		(stroke
@@ -1950,6 +1976,16 @@
 			(type default)
 		)
 		(uuid "86827515-9957-49e7-ab1a-8f54ff530816")
+	)
+	(wire
+		(pts
+			(xy 171.45 64.77) (xy 180.34 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88336b66-f853-4251-8c8a-32f7a9be46a5")
 	)
 	(wire
 		(pts
@@ -1993,7 +2029,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 19.05) (xy 113.03 19.05)
+			(xy 171.45 19.05) (xy 113.03 19.05)
 		)
 		(stroke
 			(width 0)
@@ -2050,6 +2086,16 @@
 			(type default)
 		)
 		(uuid "9baaf335-3259-42ff-baf6-9983bb75a0a6")
+	)
+	(wire
+		(pts
+			(xy 123.19 21.59) (xy 168.91 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ccce1db-8d3e-4aa3-bcb4-3ee2c69db01c")
 	)
 	(wire
 		(pts
@@ -2273,16 +2319,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 67.31) (xy 168.91 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1895aa2-9ade-4061-bd6a-c0fad2cc6877")
-	)
-	(wire
-		(pts
 			(xy 261.62 99.06) (xy 274.32 99.06)
 		)
 		(stroke
@@ -2500,6 +2536,16 @@
 			(type default)
 		)
 		(uuid "f9b9d274-0614-48b0-bc75-e64cf4ee718a")
+	)
+	(wire
+		(pts
+			(xy 123.19 34.29) (xy 123.19 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa5f8af9-37fe-4c05-bacd-6f80e9dbcede")
 	)
 	(wire
 		(pts
@@ -2947,6 +2993,42 @@
 			)
 		)
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 118.11 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a82904ac-5097-4aeb-bd15-bef97b91b1f6")
+		(property "Netzklasse" "Power"
+			(at 118.8085 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 166.37 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "SamacSys_Parts:NHD-C0220BIZ-FSW-FBW-3V3M")
 		(at 233.68 99.06 0)
@@ -2979,7 +3061,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NHDC0220BIZFSWFBW3V3M"
+		(property "Footprint" "additional:NHDC0220BIZFSWFBW3V3M"
 			(at 257.81 193.98 0)
 			(hide yes)
 			(show_name no)
@@ -4802,6 +4884,16 @@
 		(pin "Gleisspannung_gemessen" input
 			(at 113.03 19.05 0)
 			(uuid "353437c2-4707-45a5-abdc-e4808d1f109d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Gleisstrom_gemessen" input
+			(at 113.03 34.29 0)
+			(uuid "d9f23504-0246-4833-af2c-453347eebb51")
 			(effects
 				(font
 					(size 1.27 1.27)
