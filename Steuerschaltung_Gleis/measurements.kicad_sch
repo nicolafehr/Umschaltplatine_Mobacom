@@ -1228,12 +1228,6 @@
 		(uuid "a614cebf-6729-4b12-918e-fe3356f85b83")
 	)
 	(junction
-		(at 38.1 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e52d3505-eac2-402f-b464-d2320a15fc97")
-	)
-	(junction
 		(at 138.43 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1377,16 +1371,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 30.48) (xy 69.85 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "186c08c6-3e7a-42a2-89f6-e517f1c3560b")
-	)
-	(wire
-		(pts
 			(xy 195.58 40.64) (xy 215.9 40.64)
 		)
 		(stroke
@@ -1487,16 +1471,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 30.48) (xy 38.1 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33961b9d-6702-4aac-8dcb-09509018cb66")
-	)
-	(wire
-		(pts
 			(xy 69.85 74.93) (xy 69.85 77.47)
 		)
 		(stroke
@@ -1507,7 +1481,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 30.48) (xy 40.64 30.48)
+			(xy 35.56 30.48) (xy 69.85 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2445,26 +2419,6 @@
 		)
 		(uuid "fdc8b8fe-71de-4ec3-a431-dbb674a12c7b")
 	)
-	(wire
-		(pts
-			(xy 35.56 30.48) (xy 38.1 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "feaf9d06-2b87-43c8-9c3b-8e2905de4494")
-	)
-	(label "Gleis_pos_in_2"
-		(at 48.26 30.48 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "07f2521a-f142-435b-86eb-e7a601bd6a24")
-	)
 	(label "Gleis_pos_in_1"
 		(at 40.64 30.48 90)
 		(effects
@@ -2473,19 +2427,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "934eed1c-4645-40d1-8ea3-35408ad0989d")
+		(uuid "09caf3b7-a021-4250-a6db-6fa243d9d47e")
 	)
 	(label "Gleis_pos_in_2"
-		(at 40.64 142.24 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d94a4381-a82e-4004-b462-ec4a9ef48282")
-	)
-	(label "Gleis_pos_in_1"
 		(at 40.64 137.16 180)
 		(effects
 			(font
@@ -2493,7 +2437,27 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "f102ca02-3faf-40bf-9d92-4cc5cc2d433a")
+		(uuid "20f19621-3d96-4e5a-8243-8f53d7c0b094")
+	)
+	(label "Gleis_pos_in_1"
+		(at 40.64 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "308a6b3f-6c0d-4591-b545-e5a5c5f07a17")
+	)
+	(label "Gleis_pos_in_2"
+		(at 38.1 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab9e1c13-195a-48b7-93a7-4c219a4593c6")
 	)
 	(global_label "VCC_5V"
 		(shape input)

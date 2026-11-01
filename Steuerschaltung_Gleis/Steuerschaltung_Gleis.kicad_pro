@@ -679,6 +679,10 @@
         "Gleis",
         "Gleis_positive"
       ],
+      "/measurements/Gleis_pos_in_2": [
+        "Gleis",
+        "Gleis_positive"
+      ],
       "/measurements/Gleisspannung_gemessen": [
         "Power"
       ],
